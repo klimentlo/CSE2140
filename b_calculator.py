@@ -22,7 +22,7 @@ while True:
     NUMBER1 = int(NUMBER1)
     NUMBER2 = int(NUMBER2)
     if OPERATION == "/":
-        if NUMBER2 == "0":
+        if NUMBER2 == 0:
             print("You can't divide by 0! ")
             NUMBER2 = input("Enter a divisor that is not zero ")
             NUMBER2 = int (NUMBER2)
