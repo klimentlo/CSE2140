@@ -36,3 +36,16 @@ Data is stored in various types/formats so that the programs can interact with t
 2. _Integers_ - used to store non-decimal numbers (and you CAN do math to them)
 3. _Float(ing point  number)_ - used to store decimal numbers
 4. _Booleans (logic)_ - used to store True or False
+
+### Comparing Numbers
+* ">" - Greater than
+* "<" - Less than
+* ">=" - Greater or equal to
+* "<=" - Less than or equal to
+* "==" - Equals (= changes the value of something, == is for comparing)
+* "!=" - Not equals
+### Mathematical operators
+All programming languages include basic arithmetic. Common calculations inside addition (+), subtraction (-), multiplication (*), division (/), floor/integer division (//), and modules (%)
+* When dividing, 13 / 5 = 2.6
+* With floor division, 13 // 5 = 3 (whole number quotient without the remainder)
+* With modulus, 13 % 5 = 3 (just the remainder, not the quotient)
