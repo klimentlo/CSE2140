@@ -49,3 +49,97 @@ All programming languages include basic arithmetic. Common calculations inside a
 * When dividing, 13 / 5 = 2.6
 * With floor division, 13 // 5 = 3 (whole number quotient without the remainder)
 * With modulus, 13 % 5 = 3 (just the remainder, not the quotient)
+
+## Contractions
+In Python, there are two common contractions used for decisions and accumulation (counting)
+
+### Decision
+```python
+AVERAGE = float(input("Enter your average: "))
+
+if AVERAGE > 79.9:
+    GRADE = "A"
+else:
+    if AVERAGE > 64.9
+        GRADE = "B"
+    else: 
+     if ..............
+
+if ABERAGE > 79.9:
+    GRADE = "A"
+elif AVERAGE > 64.9:
+    GRADE = "B"
+elif AVERAGE > 49.9:
+    GRADE = "C"
+else:
+    GRADE = "D"
+```
+
+### Accumulation
+
+```python
+NUMBER = 0
+# NUMBER = NUMBER + 1
+NUMBER += 1
+
+# This contraction works or all operations
+NUMBER -= 1
+NUMBER *= 2
+NUMBER /= 2
+NUMBER //= 2
+NUMBER %= 2
+```
+
+
+## For and While loops
+Loops provide repitition to parts of a program without the need to copy and paste sections of code. 
+
+
+For loops will repeat until a number of iterations are met; While loops will continue to repeat until a specific condition is met. 
+
+```python
+# for loop
+for i in range(5):
+    print("Hello World")
+# prints the text string 5 times
+
+#while loop
+NUMBER = 5
+while NUMBER > 0:
+    print("Hello World")
+    NUMBER -= 1
+#print the text string 5 times
+```
+* To immediately exit a loop, use the ```break``` statement
+* To skip the rest of a loop and start the next iteration, used the ```Continue``` statement
+
+## Libraries
+Programming languages divide the commands capable within the programming language into separate files so that only a core set of commands make up the default language. This process allows programs to run with only the set of commands required for the program to function. Therefore, the program can function more smoothly without the bloat of other commands not relevant to the program (for example, most programs don't need network management tools so commands relevant to those tools would be stores in a library and not in the core language). Programming languages have a __standard library__ that is maintained as part of the language. There are also third party libraries that can be installed separately and imported into the language
+
+```python
+# to add an entire library
+import libraryname
+# to use "exit" from library name
+libraryname.exit
+
+# to add only one command from a library
+from libraryname import exit 
+# to use exit after import just the command
+exit()
+
+# import a library and rename the library
+import librarywithalongnamethatdoesntneedtobelongname as ln 
+
+ln.exit 
+
+# import all values within a library
+from libraryname import *
+
+exit()
+```
+
+When importing entire libraries, it is possible to list multiple libraries in a single import; however, this increases the complexity of debugging and can reduce readability 
+
+import library name, math, anotherrandomname
+
+When importing individual commands from a library, multiple commands can be imported at the same time by listening them in a single statement
