@@ -60,12 +60,12 @@ AVERAGE = float(input("Enter your average: "))
 if AVERAGE > 79.9:
     GRADE = "A"
 else:
-    if AVERAGE > 64.9
+    if AVERAGE > 64.9 
         GRADE = "B"
     else: 
-     if ..............
+     if ...........
 
-if ABERAGE > 79.9:
+if AVERAGE > 79.9:
     GRADE = "A"
 elif AVERAGE > 64.9:
     GRADE = "B"
