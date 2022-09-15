@@ -92,9 +92,9 @@ NUMBER %= 2
 
 
 ## For and While loops
-Loops provide repitition to parts of a program without the need to copy and paste sections of code. 
+Loops provide repetition to parts of a program without the need to copy and paste sections of code. 
 
-
+s
 For loops will repeat until a number of iterations are met; While loops will continue to repeat until a specific condition is met. 
 
 ```python

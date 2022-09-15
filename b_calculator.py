@@ -25,7 +25,7 @@ while True:
         if NUMBER2 == 0:
             print("You can't divide by 0! ")
             NUMBER2 = input("Enter a divisor that is not zero ")
-            NUMBER2 = int (NUMBER2)
+            NUMBER2 = int(NUMBER2)
     '''
     Changes the variables NUMBER 1 and NUMBER 2 from their current data type (in this case, a string) to an integer
     

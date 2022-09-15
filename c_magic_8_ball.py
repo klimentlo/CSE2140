@@ -11,7 +11,7 @@ import random
 #random is the library name that lets us chose a random integer using the command randint
 
 
-# --- INPUTS --- #
+# --- INPUTS --- ###
 # user asks a question (define a variable and record it as a string input like the calculator program
 QUESTION = input("What must you wish to know? ")
 
